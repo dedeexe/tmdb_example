@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: tmdb.xcodeproj
+xcode_scheme: tmdbTests
+xcode_sdk: iphonesimulator10.1
