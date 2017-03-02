@@ -1,5 +1,6 @@
 TMDB - Manual
 =============
 
-[Test Report](TestReport.md)
-[Code Coverage Report](CodeCoverage.md)
+[1.Test Report](TestReport.md)
+
+[2.Code Coverage Report](CodeCoverage.md)
