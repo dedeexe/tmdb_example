@@ -2,4 +2,4 @@ language: objective-c
 osx_image: xcode8.2
 xcode_project: tmdb.xcodeproj
 xcode_scheme: tmdb
-xcode_sdk: iphonesimulator10.1
+xcode_sdk: iphonesimulator8.3
