@@ -1,0 +1,14 @@
+======= Results =======
+---> Success
+Test Case '-[tmdbTests.DataStorageTest testRestoreStorage]' passed (0.010 seconds).
+Test Case '-[tmdbTests.DataStorageTest testSaveStorage]' passed (0.003 seconds).
+Test Case '-[tmdbTests.MovieDetailEnvironmentTest testConfigureEnvironment]' passed (0.002 seconds).
+Test Case '-[tmdbTests.MovieDetailViewControllerTest testConfigurations]' passed (0.025 seconds).
+Test Case '-[tmdbTests.MovieDetailViewControllerTest testOutletsLink]' passed (0.017 seconds).
+Test Case '-[tmdbTests.MovieFilterTests testFilterCount]' passed (0.002 seconds).
+Test Case '-[tmdbTests.MovieFilterTests testFilterNullAverageValue]' passed (0.001 seconds).
+Test Case '-[tmdbTests.tmdbTests testExample]' passed (0.001 seconds).
+Test Case '-[tmdbTests.tmdbTests testPerformanceExample]' passed (0.424 seconds).
+-----------------------
+---> Fail
+-----------------------
