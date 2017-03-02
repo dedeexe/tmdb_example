@@ -3,3 +3,6 @@ osx_image: xcode8.2
 xcode_project: tmdb.xcodeproj
 xcode_scheme: tmdb
 xcode_sdk: iphonesimulator8.3
+
+script:
+        - xcodebuild build test -sdk iphonesimulator -project tmdb.xcodeproj -scheme tmdb -destination 'platform=iOS Simulator,name=iPhone 6,OS=10.2' -enableCodeCoverage YES CODE_SIGNING_REQUIRED=NO
