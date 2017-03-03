@@ -5,11 +5,15 @@ TMDB - Automatic Tests
 
 ####1. Simples Output
 run command:
-```$ make test
 
+```
+$ make test
+```
  
 ####2. Simples Output
 run command:
-```$ make pretty_test
 
+```
+$ make pretty_test
+```
 XCPretty is mandatory for this feature
