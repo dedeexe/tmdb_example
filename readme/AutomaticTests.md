@@ -17,6 +17,6 @@ $ make test
 run command:
 
 ```
-$ make pretty_test
+$ make pretty-test
 ```
 XCPretty is mandatory for this feature
