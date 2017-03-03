@@ -5,4 +5,4 @@ xcode_scheme: tmdb
 xcode_sdk: iphonesimulator8.3
 
 script:
-        - xcodebuild build test -sdk iphonesimulator -project tmdb.xcodeproj -scheme tmdb -destination 'platform:iOS Simulator, id:AD8E8C76-910E-437D-88C2-4D6F6EBE3355, OS:10.2, name:iPhone 6' -enableCodeCoverage YES CODE_SIGNING_REQUIRED=NO
+        - xcodebuild build test -sdk iphonesimulator -project tmdb.xcodeproj -scheme tmdb -destination 'platform=iOS Simulator, id=AD8E8C76-910E-437D-88C2-4D6F6EBE3355, OS=10.2, name=iPhone 6' -enableCodeCoverage YES CODE_SIGNING_REQUIRED=NO
