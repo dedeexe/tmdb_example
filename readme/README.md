@@ -5,4 +5,4 @@ TMDB - Manual
 
 [2. Code Coverage Report](CodeCoverage.md)
 
-[2. Test Automation Script](AutomaticTests.md)
+[3. Test Automation Script](AutomaticTests.md)
