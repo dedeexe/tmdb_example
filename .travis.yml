@@ -1,8 +1,11 @@
 language: objective-c
 osx_image: xcode8.2
 
+before_install:
+        - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+
 script:
         - set -o pipefail
         - xcodebuild -version
         - xcodebuild -showsdks
-        - xcodebuild test -sdk iphonesimulator10.2 -project tmdb.xcodeproj -scheme tmdb -destination 'platform=iOS Simulator,OS=10.0,name=iPhone 5' -enableCodeCoverage YES CODE_SIGNING_REQUIRED=NO
+        - xcodebuild test -sdk iphonesimulator10.2 -project tmdb.xcodeproj -scheme tmdb -destination 'platform=iOS Simulator,OS=10.0,name=iPhone 5' -enableCodeCoverage YES CODE_SIGNING_REQUIRED=NO | xcpretty
