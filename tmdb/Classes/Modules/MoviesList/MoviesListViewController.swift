@@ -109,8 +109,8 @@ extension MoviesListViewController {
     func configureTableView() {
         self.tableView.delegate = self
         self.tableView.dataSource = self
-        self.tableView.estimatedRowHeight = UITableViewAutomaticDimension
-        self.tableView.rowHeight = UITableViewAutomaticDimension
+        self.tableView.estimatedRowHeight = UITableView.automaticDimension
+        self.tableView.rowHeight = UITableView.automaticDimension
         self.tableView.separatorColor = UIColor.clear
         self.tableView.separatorStyle = .none
         registerCell()
@@ -137,7 +137,7 @@ extension MoviesListViewController {
 
 //MARK: - Actions
 extension MoviesListViewController {
-    func getLatestMovies(sender:UIRefreshControl) {
+    @objc func getLatestMovies(sender:UIRefreshControl) {
         self.eventHandler?.getFirstPage()
     }
 }
@@ -162,7 +162,7 @@ extension MoviesListViewController : UITableViewDataSource {
 
 extension MoviesListViewController : UITableViewDelegate {
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+        return UITableView.automaticDimension
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

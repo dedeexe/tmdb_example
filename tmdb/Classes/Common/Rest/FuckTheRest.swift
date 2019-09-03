@@ -13,27 +13,27 @@ open class FuckTheRest {
     
     fileprivate init() {}
     
-    static open func get(_ url:String) -> FuckingRequest {
+    static public func get(_ url:String) -> FuckingRequest {
         let request = FuckingRequest(url: url, method:FuckingMethod.get)
         return request
     }
     
-    static open func post(_ url:String) -> FuckingRequest {
+    static public func post(_ url:String) -> FuckingRequest {
         let request = FuckingRequest(url: url, method:FuckingMethod.post)
         return request
     }
     
-    static open func put(_ url:String) -> FuckingRequest {
+    static public func put(_ url:String) -> FuckingRequest {
         let request = FuckingRequest(url: url, method:FuckingMethod.put)
         return request
     }
     
-    static open func delete(_ url:String) -> FuckingRequest {
+    static public func delete(_ url:String) -> FuckingRequest {
         let request = FuckingRequest(url: url, method:FuckingMethod.delete)
         return request
     }
     
-    static open func patch(_ url:String) -> FuckingRequest {
+    static public func patch(_ url:String) -> FuckingRequest {
         let request = FuckingRequest(url: url, method:FuckingMethod.patch)
         return request
     }

@@ -54,7 +54,7 @@ class MovieDetailViewController: UIViewController {
     }
 
     //MARK: -- Actions
-    func closeMovie(sender:UIButton) {
+    @objc func closeMovie(sender:UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
     
